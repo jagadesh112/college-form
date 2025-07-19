@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./clgform.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+          <h1> <img src="./ct.jpg" style="width: 50px;">College Form <img src="./cl3.jpg" style="width: 50px;"></h1>
+            
+            <hr>
+            <div class="input-control">
+                <label for="firstname">Firstname</label>
+                <input type="text" id="firstname" name="firstname">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="lastname">Lastname</label>
+                <input type="text" id="lastname" name="lastname">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="dob">Date Of Birth</label>
+                <input type="text" id="dob" name="dob" placeholder="DD/MM/YYY">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="gender">Gender</label>
+                <input type="text" id="gender" name="gender" placeholder="Male/Female">
+                <div class="error"></div>
+               
+            </div>
+
+            <div class="input-control">
+                <label for="per">12th percentage</label>
+                <input type="text" id="per" name="per">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="phy">Physics mark</label>
+                <input type="text" id="phy" name="phy">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="che">Chemistry mark</label>
+                <input type="text" id="che" name="che">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="mat">Maths marks</label>
+                <input type="text" id="mat" name="mat">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                  <label for="course" >Select Courses</label>
+                    <select id="course">
+                        <option id="course">Select Here</option>
+                        <option id="course">Civil Engineering</option>
+                        <option id="course">Chemical Engineering</option>
+                        <option id="course">Mechanical Engineering</option>
+                        <option id="course">Electrical Engineering</option>
+                        <option id="course">Automobile Engineering</option>
+                        <option id="course">Computer Engineering</option>
+                        <option id="course">Marine Engineering</option>
+                        <option id="course">Agricultural Engineering</option>
+                        <option id="course">Biomedical Engineering</option>
+                        <option id="course">Aerospace Engineering</option>
+                        <option id="course">Others</option>
+                
+                    </select>
+                    <div class="error"></div>
+            </div>
+
+             <div class="input-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+                <div class="error"></div>
+            </div>
+
+            <button type="submit">Submit</button>
+
+
+        </form>
+    </div>
+
+    <script src="./clgform.js"></script>
+</body>
+</html>
